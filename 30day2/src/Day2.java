@@ -31,7 +31,7 @@ public class Day2 {
 			
 			Calendar cal2 = Calendar.getInstance();
 			cal2.setTime(date);
-			cal2.add(Calendar.DAY_OF_YEAR, n+14);
+			cal2.add(Calendar.DAY_OF_YEAR, n+7);
 		
 		System.out.println(sdf.format(calendar.getTime())+" ("+sdf.format(cal1.getTime())+" - "+sdf.format(cal2.getTime())+")"); 
 		}
